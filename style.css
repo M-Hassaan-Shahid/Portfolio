@@ -118,17 +118,32 @@ span{
     display: inline-block;
     position: relative;
     width: 220vw;
-    height: 32vw;
+    height: 33vw;
+    background-repeat: no-repeat;
     border-radius: 50%;
+    border-top: #b74b4b 0.2rem solid;
     box-shadow: 0 0 25px solid #b74b4b;
     cursor: pointer;
     background-image: url('img.png');
     background-size: cover;
-    transition: 0.2s linear; 
+    transition: 0.5s linear; 
+    animation: border 2s infinite;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+@keyframes border{
+    0%{
+        border-top: #b74b4b 0.2rem solid;
+    }
+    50%{
+        border-top: transparent 0.2rem solid;
+    }
+    100%{
+        border-top: #b74b4b 0.2rem solid;
+    }
 }
 .img:hover{
-    font-size: 1rem;
-    font-weight: 500;
+    transform: scale(1.1) translate(-10px);
 }
 .icons a{
     display: inline-flex;
@@ -168,6 +183,8 @@ span{
     background-color: black;
 }
 .hire a{
+    margin-top: 0%;
+
     color: #b74b4b;
     text-decoration: none;
 }
@@ -195,19 +212,19 @@ span{
 }
 .typing span::after{
     content: "";
-    background-color: black;
+    background-color: transparent;
     position: absolute;
-    width: calc(100% + 8px);
-    height: 100%;
-    border-left: 3px solid black;
-    right: -8;
-    animation: curor 0.6s infinite;
+    width: calc(100% + 9px);
+    height: 60px;
+    border-left: 3px solid transparent;
+    right: -9;
+    animation: cursor 1.5s infinite;
 }
 @keyframes cursor 
 {
     to{
 
-        border-left: #161616 1px solid;
+        border-left: #b74b4b 3px solid;
 
     }
     
@@ -246,7 +263,8 @@ span{
     }
     .content .img{
         width: 70vw;
-        margin-top: 4rem;
+        height: 70vw;
+        margin-top: 1rem;
     }
 
 }
