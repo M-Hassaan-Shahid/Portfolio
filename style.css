@@ -1,4 +1,4 @@
-@import url('https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0NIc3EyQ1kwcm8xNFEwalhDMng4cEJKRHY1QXxBQ3Jtc0trdWxEUmVPbGFtbXpJVGVuQW5Ia0E3dm9ZNzV6ZmdLN3o5VHVSMmVhb2h5MEVZV2hfYkpxUkdubjZWNnZsR1FUY3RzSGtKTzFLenVDQ0d4cHlYY2FnbzF4OXpUUWhKN1huUlFfakp4eGRyNHBtcEpLNA&q=https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DPoppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600%26display%3Dswap%27%29%3B&v=-u3vE84Wo_U');
+@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B');
 *{
     margin: 0;
     padding: 0;
@@ -78,7 +78,7 @@ nav.active{
     display: block;
 }
 nav a{
-    display: block;
+    /* display: block; */
     margin: 3rem 0;
     font-size: 2rem;
 }
