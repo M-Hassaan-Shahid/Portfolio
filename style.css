@@ -88,8 +88,9 @@ nav a:hover,nav a.active{
     border-bottom: 3px solid #b74b4b;
 }
 .content{
-    margin-top: 50px;
-    min-height: 200vh;
+    margin-top: 32px;
+    min-height: 100vh;
+    /* width: 1000; */
     padding: 5rem 9% 5rem;
     display: flex;
     justify-content: space-evenly;
@@ -100,7 +101,7 @@ nav a:hover,nav a.active{
 span{
     color: #b74b4b;
 }
-.content .text h1{
+.content .text h2{
     font-size: 6rem;
     font-weight: 700;
     line-height: 1.3;
